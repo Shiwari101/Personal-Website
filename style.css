@@ -4,18 +4,17 @@ body{
     background-color: rgb(36, 41, 51);
     font-family: 'Montserrat Alternates', sans-serif;
 }
-
 .main-container{
     color: rgb(236, 239, 244);
     text-align: center;
 }
-
 #welcome-section{
     background-color: rgb(46, 52, 64);
-    height: 100vh;
-    font-size: larger;
+    margin-left: 156px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
 }
-
 #navbar{
     background-color: rgb(46, 52, 64);
     top: 0;
@@ -26,37 +25,29 @@ body{
     position: sticky;
 
 }
-
 #nav-link li{
     display: inline;
     align-self: left;
     margin-right: 60px;
     text-decoration: none;
     float: center;
-
 }
-
 #nav-link #nav-bar-title{
     float: left;
 }
-
 #projects hr{
     margin: 40px;
 }
-
 #project-tile{
     background-color: rgb(46, 52, 64);
     padding: 40px;
     border-radius: 10px;
     margin: 20px;
-
 }
-
 #project-tile{
     display: flex;
     justify-content: space-evenly;
 }
-
 #landing-page, #dailydinner, #kamisama{
     width: 360px;
     height: 300px;
@@ -64,84 +55,57 @@ body{
     margin: 0px;
     transition: all 0.7s;
 }
-
 #landing-page:hover, #dailydinner:hover, #kamisama:hover{
     transform: scale(1.1);
 }
-
 .project-imgs{
     width: 400px;
 }
-
 #project-title{ 
     transition: all 0.3s;
 }
-
 #project-title:hover{
     color: crimson;
     cursor: pointer;
     transform: scale(1.1);
 }
-
 a{
     color: white;
     text-decoration: none;
     transition: 0.3s;
 }
-
 a:hover{
     color: crimson;
     cursor: pointer;
     transform: scale(1.1);
 }
-
-
 #social-media{
     background-color: rgb(46, 52, 64);
     padding: 40px;
     margin: 20px;
 }
-
 .wapper{
     display: inline-flex;
     width: 7%;
-    justify-content: space-evenly;
-    
+    justify-content: space-evenly;   
 }
-
 #github-link, #freecodecamp-link, #linkedin-link, #twitter-link{
     margin: 15px;
     height: 46px;
-
 }
-
-/* #github-link > img, #freecodecamp-link > img, #linkedin-link > img, #twitter-link > img {
-    width: 5%;
-    display: inline-block;
-    
-    
-} */
 .link-title{
     display: flex;
     align-items: center;
 }
-
 @media (max-width: 500px){
     #project-tile{
         width:fit-content;
-        display: block;
-        
+        display: block;    
     }
-
 }
-
 @media (max-width: 700px){
     #project-tile{
         width:fit-content;
-        display: block;
-        
+        display: block;       
     }
-
 }
-
-
