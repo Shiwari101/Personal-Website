@@ -12,13 +12,8 @@ body{
 
 #welcome-section{
     background-color: rgb(46, 52, 64);
-    /* margin-left: 156px;
-    padding: 10px; */
-    border-radius: 10px;
-    /* margin: 10px; */
     height: 100vh;
     font-size: larger;
-    /* padding-top: 10%; */
 }
 
 #navbar{
