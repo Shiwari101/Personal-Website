@@ -6,14 +6,16 @@ body{
 }
 .main-container{
     color: rgb(236, 239, 244);
-    text-align: center;
 }
 #welcome-section{
     background-color: rgb(46, 52, 64);
-    margin-left: 156px;
     padding: 10px;
     border-radius: 10px;
-    margin: 10px;
+    margin: 5px;
+}
+.intro-text{
+    display: flex;
+    justify-content: center;
 }
 #navbar{
     background-color: rgb(46, 52, 64);
@@ -21,45 +23,54 @@ body{
     min-height: 50px;
     border-radius: 10px;
     padding: 10px;
-    margin: 10px;
+    margin: 5px;
     position: sticky;
     z-index: 1;
+    border-bottom: 1.3px solid black;
 
 }
-#nav-link li{
-    display: inline;
+
+#nav-link ul{
     display: flex;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-decoration: none;
-    float: right;
+    justify-content: flex-end;
+    align-content: center;
+    gap: 3%;
+    list-style: none;
 }
-#nav-link #nav-bar-title{
-    float: left;
-}
+
 #projects hr{
-    margin: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
 }
-#project-tile{
-    background-color: rgb(46, 52, 64);
-    padding: 40px;
-    border-radius: 10px;
-    margin: 10px;
+
+#project-title{
+    display: flex;
+    justify-content: center;
 }
+
 #project-tile{
     display: flex;
-    justify-content: space-evenly;
+    background-color: rgb(46, 52, 64);
+    padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
     z-index: 2;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 #landing-page, #dailydinner, #kamisama{
-    width: 360px;
+    display: inline;
+    width: 380px;
     height: 300px;
     border-radius: 10px;
-    margin: 0px;
-    transition: all 0.7s;
+    transition: all 0.6s;
+
 }
 #landing-page:hover, #dailydinner:hover, #kamisama:hover{
-    transform: scale(1.1);
+    transform: scale(1.03);
 }
 .project-imgs{
     width: 400px;
@@ -85,31 +96,34 @@ a:hover{
 #social-media{
     background-color: rgb(46, 52, 64);
     padding: 40px;
-    margin: 20px;
+    margin: 5px;
     border-radius: 10px;
+    text-align: center;
 }
 .wapper{
     display: inline-flex;
-    width: 7%;
-    justify-content: space-evenly;   
+    gap: 17px;
+
 }
 #github-link, #freecodecamp-link, #linkedin-link, #twitter-link{
-    margin: 15px;
-    height: 46px;
-}
-.link-title{
     display: flex;
-    align-items: center;
+    height: 45px;
 }
+
 @media (max-width: 500px){
     #project-tile{
-        width:fit-content;
-        display: block;    
+        width: 100%;
+        height: auto;
+        display: flex;    
+        justify-content: center;
+        align-content: center;
     }
 }
 @media (max-width: 700px){
     #project-tile{
-        width:fit-content;
-        display: block;       
+        display: inline-block;    
+        height: 100%;
+        justify-content: center;
+        align-content: center;  
     }
 }
