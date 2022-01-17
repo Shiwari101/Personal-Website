@@ -23,37 +23,40 @@ body{
     min-height: 50px;
     border-radius: 10px;
     padding: 10px;
-    margin: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
     position: sticky;
     z-index: 1;
-    border-bottom: 1.3px solid black;
+    border-bottom: 1.2px solid black;
 
 }
 
+
 #nav-link ul{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-content: center;
     gap: 3%;
     list-style: none;
 }
 
-#projects hr{
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 3%;
+hr{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
 }
 
-#project-title{
+#project-main-title{
     display: flex;
     justify-content: center;
 }
-
 #project-tile{
     display: flex;
+    flex-wrap: wrap;
     background-color: rgb(46, 52, 64);
     padding: 20px;
     margin: 5px;
+    margin-bottom: 15px;
     border-radius: 10px;
     z-index: 2;
     gap: 10%;
@@ -99,31 +102,104 @@ a:hover{
     margin: 5px;
     border-radius: 10px;
     text-align: center;
+    margin-bottom: 15px;
 }
-.wapper{
-    display: inline-flex;
-    gap: 17px;
+.icon-social{
+    display: flex;
+    gap: 30px;
+    height: 50px;
+    margin-bottom: 30px;
+    justify-content: center;
 
 }
-#github-link, #freecodecamp-link, #linkedin-link, #twitter-link{
+.icon-social p{
     display: flex;
-    height: 45px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 @media (max-width: 500px){
-    #project-tile{
-        width: 100%;
-        height: auto;
-        display: flex;    
-        justify-content: center;
-        align-content: center;
+    #project-main-title{
+        display: flex;
+        margin-left: 25%;
+        margin-right: 25%;
+        text-align: center;
     }
-}
-@media (max-width: 700px){
     #project-tile{
-        display: inline-block;    
-        height: 100%;
+        display: flex;
+        flex-wrap: wrap;    
+        margin-left: 25%;
+        margin-right: 25%;
         justify-content: center;
         align-content: center;  
+    }
+    #landing-page, #dailydinner, #kamisama{
+        height: 160px;
+        width: 160px;
+    }
+    #social-media{
+        flex-wrap: wrap;
+        margin-left: 25%;
+        margin-right: 25%;
+
+        margin-bottom: 10px;
+
+    }
+    .icon-social{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .icon-social p{
+        text-align: center;
+    }
+    #footer{
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    position: static;
+    bottom: 0;
+}
+
+}
+@media (max-width: 700px){
+    #project-main-title{
+        display: flex;
+        margin-left: 25%;
+        margin-right: 25%;
+        text-align: center;
+    }
+    #project-tile{
+        display: flex;
+        flex-wrap: wrap;    
+        margin-left: 25%;
+        margin-right: 25%;
+        justify-content: center;
+        align-content: center;  
+    }
+    #landing-page, #dailydinner, #kamisama{
+        height: 160px;
+        width: 160px;
+    }
+    #social-media{
+        flex-wrap: wrap;
+        margin-left: 25%;
+        margin-right: 25%;
+        padding-bottom: 45%;
+        margin-bottom: 10px;
+
+    }
+    .icon-social{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .icon-social p{
+        text-align: center;
     }
 }
