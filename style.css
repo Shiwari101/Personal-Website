@@ -1,1 +1,217 @@
-body{height:100%;margin:0;background-color:#242933;font-family:'Montserrat Alternates',sans-serif}.main-container{color:#eceff4}#welcome-section{background-color:#2e3440;padding:10px;border-radius:10px;margin:5px;text-align:center}.intro-text{display:flex;justify-content:center}#navbar{background-color:#2e3440;top:0;border-radius:10px;padding:6px;margin-left:5px;margin-right:5px;position:sticky;z-index:1;border-bottom:1.2px solid #4c566a}#nav-link ul{padding:0;display:flex;justify-content:center;align-content:center;gap:3%;list-style:none;width:100%}hr{margin-left:25%;margin-right:25%;margin-bottom:3%}#project-main-title{display:flex;justify-content:center}#project-tile{display:flex;flex-wrap:wrap;background-color:#2e3440;padding:20px;margin:5px;margin-bottom:15px;border-radius:10px;z-index:2;gap:10%;justify-content:center;align-items:center;text-align:center}#dailydinner,#kamisama,#landing-page{display:inline;width:380px;height:300px;border-radius:10px;transition:all .5s}#dailydinner:hover,#kamisama:hover,#landing-page:hover{transform:scale(1.03)}.project-imgs{width:400px}#project-title{transition:all .3s}#project-title:hover{color:#8fbcbb;cursor:pointer;transform:scale(1.1)}a{color:#fff;text-decoration:none;transition:.3s}a:hover{color:#8fbcbb;cursor:pointer;transform:scale(1.1)}#social-media{background-color:#2e3440;padding:20px;margin:5px;border-radius:10px;text-align:center;margin-bottom:10px}.icon-social{display:flex;gap:30px;justify-content:center;margin-top:10px}.icon-social p{display:flex;font-family:'Montserrat Alternates',sans-serif}#copyright{display:flex;justify-content:center;margin-bottom:20px;text-align:center}@media (max-width:500px){#navbar{margin-bottom:10px}#nav-link ul{gap:6%}#project-main-title{display:flex;margin-left:25%;margin-right:25%;text-align:center}#project-tile{display:flex;flex-wrap:wrap;margin-left:25%;margin-right:25%;justify-content:center;align-content:center}#dailydinner,#kamisama,#landing-page{height:160px;width:160px}#social-media{flex-wrap:wrap;margin-left:25%;margin-right:25%;margin-bottom:10px}.icon-social{display:flex;flex-wrap:wrap}.icon-social p{text-align:center}#footer{display:flex;justify-content:center;font-size:small}}@media (max-width:700px){#navbar{margin-bottom:10px}#nav-link ul{gap:6%}#project-main-title{display:flex;margin-left:25%;margin-right:25%;text-align:center}#project-tile{display:flex;flex-wrap:wrap;margin-left:25%;margin-right:25%;justify-content:center;align-content:center}#dailydinner,#kamisama,#landing-page{height:160px;width:160px}#social-media{flex-wrap:wrap;margin-left:25%;margin-right:25%;margin-bottom:10px}.icon-social{display:flex;flex-wrap:wrap}.icon-social p{text-align:center}}
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #242933;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+.main-container {
+    color: #eceff4;
+}
+#welcome-section {
+    background-color: #2e3440;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+
+
+blockquote, figcaption{
+    font-weight: 900;
+}
+
+.intro-header{
+    font-weight: 1000;
+    box-shadow: 1px 1px 3px 1px #8fbcbb;
+}
+
+.intro-text {
+    display: flex;
+    justify-content: center;
+}
+#navbar {
+    background-color: #2e3440;
+    top: 0;
+    border-radius: 10px;
+    padding: 6px;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: sticky;
+    z-index: 1;
+    border-bottom: 1.2px solid #4c566a;
+}
+#nav-link ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 3%;
+    list-style: none;
+    width: 100%;
+}
+hr {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 3%;
+}
+#project-main-title {
+    display: flex;
+    justify-content: center;
+}
+#project-tile {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #2e3440;
+    padding: 20px;
+    margin: 5px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    z-index: 2;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#dailydinner,
+#kamisama,
+#landing-page {
+    display: inline;
+    width: 380px;
+    height: 300px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+#dailydinner:hover,
+#kamisama:hover,
+#landing-page:hover {
+    transform: scale(1.03);
+}
+.project-imgs {
+    width: 400px;
+}
+#project-title {
+    transition: all 0.3s;
+}
+#project-title:hover {
+    color: #8fbcbb;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover {
+    color: #8fbcbb;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#social-media {
+    background-color: #2e3440;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.icon-social {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 10px;
+}
+.icon-social p {
+    display: flex;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+#copyright {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+@media (max-width: 500px) {
+    #navbar {
+        margin-bottom: 10px;
+    }
+    #nav-link ul {
+        gap: 6%;
+    }
+    #project-main-title {
+        display: flex;
+        text-align: center;
+    }
+    #project-tile {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 5%;
+        margin-right: 5%;
+        justify-content: center;
+        align-content: center;
+    }
+    #dailydinner,
+    #kamisama,
+    #landing-page {
+        height: 180px;
+        width: 180px;
+    }
+    #social-media {
+        flex-wrap: wrap;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 10px;
+    }
+    .icon-social {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .icon-social p {
+        text-align: center;
+    }
+    #footer {
+        display: flex;
+        justify-content: center;
+        font-size: small;
+    }
+}
+@media (max-width: 700px) {
+    #navbar {
+        margin-bottom: 10px;
+    }
+    #nav-link ul {
+        gap: 6%;
+    }
+    #project-main-title {
+        display: flex;
+        text-align: center;
+    }
+    #project-tile {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 5%;
+        margin-right: 5%;
+        justify-content: center;
+        align-content: center;
+    }
+    #dailydinner,
+    #kamisama,
+    #landing-page {
+        height: 180px;
+        width: 180px;
+    }
+    #social-media {
+        flex-wrap: wrap;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 10px;
+    }
+    .icon-social {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .icon-social p {
+        text-align: center;
+    }
+}
