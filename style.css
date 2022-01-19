@@ -10,26 +10,33 @@ body {
 #welcome-section {
     background-color: #2e3440;
     padding: 10px;
-    border-radius: 10px;
     margin: 5px;
+    border-radius: 10px;
     text-align: center;
+    height: 100vh;
+    font-weight: 600;
 }
-
-
 
 blockquote, figcaption{
     font-weight: 900;
 }
 
-.intro-header{
+.intro-header{ 
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-weight: 1000;
-    box-shadow: 1px 1px 3px 1px #8fbcbb;
+    box-shadow: rgba(143,188,187, 0.8) 0px 8px 24px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
-.intro-text {
-    display: flex;
-    justify-content: center;
+.intro-text{
+    font-size: 20px;
+    font-weight: 800;
 }
+
 #navbar {
     background-color: #2e3440;
     top: 0;
@@ -111,6 +118,8 @@ a:hover {
 #social-media {
     background-color: #2e3440;
     padding: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     margin: 5px;
     border-radius: 10px;
     text-align: center;
@@ -132,6 +141,7 @@ a:hover {
     margin-bottom: 20px;
     text-align: center;
 }
+
 @media (max-width: 500px) {
     #navbar {
         margin-bottom: 10px;
@@ -175,8 +185,21 @@ a:hover {
         justify-content: center;
         font-size: small;
     }
+     #welcome-section{
+        padding-top: 10px;
+    }
+
 }
+
 @media (max-width: 700px) {
+    #welcome-section{
+        padding-top: 10px;
+    }
+    .intro-text{
+        
+        font-size: 0.7rem;
+        font-weight: 1000;
+    }
     #navbar {
         margin-bottom: 10px;
     }
@@ -214,4 +237,5 @@ a:hover {
     .icon-social p {
         text-align: center;
     }
+
 }
