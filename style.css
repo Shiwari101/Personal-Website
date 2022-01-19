@@ -142,6 +142,22 @@ a:hover {
     text-align: center;
 }
 
+@media (max-width: 400px) {
+    #social-media {
+        display: flex;
+        flex-direction: column;
+    }
+    .icon-social {
+        flex-direction: column;
+    }
+    .icon-social p {
+        justify-content: center;
+    }
+    .intro-text{
+        font-size: font-size: 0.7rem;;
+    }
+}
+
 @media (max-width: 500px) {
     #navbar {
         margin-bottom: 10px;
@@ -172,10 +188,12 @@ a:hover {
         margin-left: 5%;
         margin-right: 5%;
         margin-bottom: 10px;
+        justify-content: center;
     }
     .icon-social {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
     .icon-social p {
         text-align: center;
@@ -229,10 +247,12 @@ a:hover {
         margin-left: 5%;
         margin-right: 5%;
         margin-bottom: 10px;
+        justify-content: center;
     }
     .icon-social {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
     .icon-social p {
         text-align: center;
